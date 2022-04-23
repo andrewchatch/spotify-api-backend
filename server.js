@@ -6,7 +6,6 @@ const axios = require('axios');
 const passport = require('passport');
 const refresh = require('passport-oauth2-refresh');
 const userSchema = require('./models/userSchema');
-const e = require('express');
 const SpotifyStrategy = require('passport-spotify').Strategy;
 
 require('dotenv').config();
